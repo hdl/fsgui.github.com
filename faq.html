@@ -51,7 +51,8 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
  <h3>Win7控件注册问题/Win7不能打开程序 </h3>
  <p>部分win7系统不能正确执行控件注册.bat脚本<br>
  如果遇到这种情况，请<br>
- 开始菜单--->搜索cmd--->右键管理员身份运行---->进入上位机程序目录(cd)--->执行 regsvr32 NTGraph.ocx 命令<br>
+ 先将NTGraph.ocx 复制到 C:\Windows\System32<br>
+ 再开始菜单--->搜索cmd--->右键管理员身份运行--->执行 regsvr32 NTGraph.ocx 命令<br>
 </p>
 
 			
